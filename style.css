@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body {
+  background-color: white;
+}
+nav {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: space-around;
+  box-shadow: 0 0 20px 0 white;
+  align-items: center;
+  display: flex;
+  z-index: 999;
+  padding: 10px;
+}
+.content {
+  margin-top: 25px;
+}
+.foto {
+  height: 40px;
+  display: flex;
+  border-radius: 100%;
+}
+.logo {
+  display: flex;
+  gap: 5px;
+  font-family: Monospace;
+  font-size: 17px;
+  font-weight: bold;
+  align-items: center;
+}
+.logo1 {
+  color: #fa00cf;
+}
+.logo2 {
+  color: black;
+}
+.ul1 {
+  display: flex;
+  gap: 60px;
+}
+a {
+  color: #fa00cf;
+  font-weight: bold;
+}
+a:hover {
+  color: #a74496;
+}
+.togle {
+  font-size: 30px;
+  color: black;
+  display: none;
+}
+.ul2 {
+  display: none;
+}
+.foto_utama {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+.content {
+  width: 100%;
+  background-color: white;
+}
+.judul {
+  font-size: 15px;
+  text-align: center;
+}
+.judul h1 {
+  padding-bottom: 30px;
+}
+.judul p {
+  padding-bottom: 30px;
+}
+.harga {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #e629cc;
+  color: white;
+}
+.harga_respon {
+  display: flex;
+  background-color: #353d4c;
+  color: white;
+  gap: 50px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+.harga h2 {
+  text-align: center;
+  padding: 20px;
+}
+.harga h4 {
+  padding-bottom: 10px;
+}
+.lis {
+  padding-bottom: 20px;
+}
+.active {
+  color: #a74496;
+  border-bottom: 1px solid black;
+}
+.media {
+  display: flex;
+  background-color: gray;
+  padding: 20px;
+  color: white;
+  align-items: center;
+
+}
+.ig {
+  display: flex;
+  color: #fa00cf;
+}
+.copy {
+  align-items: center;
+  display: flex;
+}
+i {
+  font-size: 40px;
+}
+@media screen and (max-width: 740px) {
+  .ul1 {
+    display: none;
+  }
+  .togle {
+    display: flex;
+  }
+  .ul2 {
+    display: flex;
+    background-color: white;
+    width: 200px;
+    margin-left: -900px;
+    box-shadow: 0 0 20px 0 white;
+    flex-flow: column wrap;
+    padding: 20px;
+    position: fixed;
+    gap: 40px;
+    margin-top: -25px;
+    height: 50vh;
+    z-index: 999;
+    transition: .5s;
+  }
+  .keluar {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 255px;
+  }
+  h5 {
+    font-size: 35px;
+    display: flex;
+  }
+  .ul2_ada {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    margin-left: 0;
+    box-shadow: 0 0 20px 0 white;
+    flex-flow: column wrap;
+    padding: 20px;
+    gap: 40px;
+    margin-top: -25px;
+    z-index: 9999;
+    height: 50vh;
+  }
+  .kontak2 {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    transition: .4s;
+    border-radius: 100px;
+    background-color: #fa00cf;
+  }
+  .kontak2:hover {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    border-radius: 100px;
+    background-color: #a74496;
+  }
+}
