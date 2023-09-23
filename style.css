@@ -151,7 +151,7 @@ i {
     position: fixed;
     gap: 40px;
     margin-top: 25px;
-    height: 40vh;
+    height: 200px;
     z-index: 999;
     transition: .5s;
   }
@@ -171,7 +171,7 @@ i {
     gap: 40px;
     margin-top: 25px;
     z-index: 9999;
-    height: 40vh;
+    height: 200px;
   }
   .kontak2 {
     border: 1px solid black;
